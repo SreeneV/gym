@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FLORA FITNESS — Ladies Gym</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader">
+      <span class="loader-text">FLORA</span>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- Cursor -->
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <!-- Navigation -->
+  <header id="navbar">
+    <nav class="navbar">
+      <a href="#home" class="logo">
+        <span class="logo-icon"><i class="fas fa-spa"></i></span>
+        <span class="logo-text">FLORA<span class="logo-accent">FITNESS</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#contact" class="nav-btn">Join Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul class="mobile-nav-links">
+      <li><a href="#home" class="mobile-nav-link">Home</a></li>
+      <li><a href="#about" class="mobile-nav-link">About</a></li>
+      <li><a href="#services" class="mobile-nav-link">Services</a></li>
+      <li><a href="#gallery" class="mobile-nav-link">Gallery</a></li>
+      <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      <li><a href="#contact" class="mobile-nav-link cta">Join Now</a></li>
+    </ul>
+  </div>
+
+  <!-- ==================== HOME SECTION ==================== -->
+  <section id="home" class="hero">
+    <div class="hero-slider">
+      <div class="hero-slide active" style="background-image: url('images/hero-1.jpg')"></div>
+      <div class="hero-slide" style="background-image: url('images/hero-2.jpg')"></div>
+      <div class="hero-slide" style="background-image: url('images/hero-3.jpg')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-badge" data-aos="fade-down">Welcome to Flora Fitness</span>
+      <h1 class="hero-title" data-aos="fade-up">
+        Empower Your<br>
+        <span class="gradient-text">Inner Strength</span>
+      </h1>
+      <p class="hero-subtitle" data-aos="fade-up" data-delay="200">
+        A premium fitness sanctuary designed exclusively for women. 
+        Transform your body, mind, and soul in a supportive, 
+        judgment-free environment.
+      </p>
+      <div class="hero-btns" data-aos="fade-up" data-delay="400">
+        <a href="#contact" class="btn btn-primary">
+          <span>Start Your Journey</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#about" class="btn btn-outline">
+          <i class="fas fa-play"></i>
+          <span>Explore More</span>
+        </a>
+      </div>
+      <div class="hero-stats" data-aos="fade-up" data-delay="600">
+        <div class="stat">
+          <span class="stat-number" data-count="500">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Happy Members</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-count="15">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Expert Trainers</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-count="8">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <a href="#about" class="scroll-indicator">
+        <span class="scroll-text">Scroll Down</span>
+        <span class="scroll-line"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT SECTION ==================== -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-images">
+          <div class="about-img-main">
+            <img src="images/about-main.jpg" alt="Women working out" loading="lazy">
+          </div>
+          <div class="about-img-secondary">
+            <img src="images/about-secondary.jpg" alt="Yoga session" loading="lazy">
+          </div>
+          <div class="experience-badge">
+            <span class="exp-number">8+</span>
+            <span class="exp-text">Years of<br>Excellence</span>
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="section-tag">About Us</span>
+          <h2 class="section-title">Where Women Come to <span class="gradient-text">Thrive</span></h2>
+          <p class="about-lead">
+            Flora Fitness was born from a vision to create a safe, empowering space where women can pursue their fitness goals without compromise.
+          </p>
+          <p class="about-text">
+            Founded in 2018, we have grown into the most trusted ladies-only gym in the city. Our state-of-the-art facility spans over 10,000 sq ft, equipped with world-class machines, dedicated studio spaces, and luxurious amenities. We believe every woman deserves a fitness experience tailored to her unique journey.
+          </p>
+          <div class="about-features">
+            <div class="feature">
+              <div class="feature-icon"><i class="fas fa-heart"></i></div>
+              <div>
+                <h4>Women-Only Space</h4>
+                <p>100% women-only environment for your comfort and privacy</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon"><i class="fas fa-users"></i></div>
+              <div>
+                <h4>Expert Female Trainers</h4>
+                <p>Certified trainers who understand women's fitness needs</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+              <div>
+                <h4>Holistic Wellness</h4>
+                <p>Physical, mental, and nutritional guidance under one roof</p>
+              </div>
+            </div>
+          </div>
+          <a href="#services" class="btn btn-primary">
+            <span>Our Services</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES SECTION ==================== -->
+  <section id="services" class="services section">
+    <div class="services-bg"></div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Offer</span>
+        <h2 class="section-title">Our Premium <span class="gradient-text">Services</span></h2>
+        <p class="section-desc">From high-intensity workouts to calming yoga sessions, we offer a diverse range of fitness programs designed exclusively for women.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-img">
+            <img src="images/service-strength.jpg" alt="Strength Training" loading="lazy">
+            <div class="service-overlay">
+              <span class="service-number">01</span>
+            </div>
+          </div>
+          <div class="service-content">
+            <div class="service-icon"><i class="fas fa-dumbbell"></i></div>
+            <h3>Strength Training</h3>
+            <p>Build lean muscle and boost metabolism with our guided strength training programs using premium equipment.</p>
+            <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-img">
+            <img src="images/service-yoga.jpg" alt="Yoga & Meditation" loading="lazy">
+            <div class="service-overlay">
+              <span class="service-number">02</span>
+            </div>
+          </div>
+          <div class="service-content">
+            <div class="service-icon"><i class="fas fa-spa"></i></div>
+            <h3>Yoga & Meditation</h3>
+            <p>Find inner peace and flexibility through our diverse yoga classes ranging from Vinyasa to restorative sessions.</p>
+            <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-img">
+            <img src="images/service-dance.jpg" alt="Cardio Dance" loading="lazy">
+            <div class="service-overlay">
+              <span class="service-number">03</span>
+            </div>
+          </div>
+          <div class="service-content">
+            <div class="service-icon"><i class="fas fa-music"></i></div>
+            <h3>Cardio Dance</h3>
+            <p>Shake it off with high-energy dance workouts that make burning calories the most fun you've ever had!</p>
+            <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-img">
+            <img src="images/service-hiit.jpg" alt="HIIT Training" loading="lazy">
+            <div class="service-overlay">
+              <span class="service-number">04</span>
+            </div>
+          </div>
+          <div class="service-content">
+            <div class="service-icon"><i class="fas fa-fire"></i></div>
+            <h3>HIIT Training</h3>
+            <p>Maximize fat burn and endurance with our carefully designed High-Intensity Interval Training sessions.</p>
+            <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-img">
+            <img src="images/service-nutrition.jpg" alt="Nutrition Planning" loading="lazy">
+            <div class="service-overlay">
+              <span class="service-number">05</span>
+            </div>
+          </div>
+          <div class="service-content">
+            <div class="service-icon"><i class="fas fa-apple-alt"></i></div>
+            <h3>Nutrition Planning</h3>
+            <p>Get personalized diet plans crafted by certified nutritionists to complement your fitness journey perfectly.</p>
+            <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-img">
+            <img src="images/service-personal.jpg" alt="Personal Training" loading="lazy">
+            <div class="service-overlay">
+              <span class="service-number">06</span>
+            </div>
+          </div>
+          <div class="service-content">
+            <div class="service-icon"><i class="fas fa-user-tie"></i></div>
+            <h3>Personal Training</h3>
+            <p>One-on-one sessions with dedicated trainers who create customized plans for your specific goals.</p>
+            <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TESTIMONIAL STRIP ==================== -->
+  <section class="testimonial-strip">
+    <div class="container">
+      <div class="testimonial-strip-content">
+        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+        <blockquote>
+          Flora Fitness completely transformed my life. I've lost 20kg, gained confidence, and made lifelong friends. The trainers here truly care about every member's journey.
+        </blockquote>
+        <div class="testimonial-author">
+          <img src="images/testimonial-author.jpg" alt="Priya Sharma" loading="lazy">
+          <div>
+            <strong>Priya Sharma</strong>
+            <span>Member since 2021</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== GALLERY SECTION ==================== -->
+  <section id="gallery" class="gallery section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Space</span>
+        <h2 class="section-title">Inside <span class="gradient-text">Flora Fitness</span></h2>
+        <p class="section-desc">Take a virtual tour of our world-class facility designed to inspire and empower your fitness journey.</p>
+      </div>
+      <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="gym">Gym Floor</button>
+        <button class="filter-btn" data-filter="studio">Studios</button>
+        <button class="filter-btn" data-filter="classes">Classes</button>
+        <button class="filter-btn" data-filter="amenity">Amenities</button>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item tall" data-category="gym">
+          <img src="images/service-strength.jpg" alt="Gym Floor" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-icon"><i class="fas fa-expand"></i></span>
+            <h4>Modern Gym Floor</h4>
+            <p>Premium equipment zone</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="studio">
+          <img src="images/gallery-yoga-studio.jpg" alt="Yoga Studio" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-icon"><i class="fas fa-expand"></i></span>
+            <h4>Yoga Studio</h4>
+            <p>Serene wellness space</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="classes">
+          <img src="images/service-dance.jpg" alt="Dance Fitness" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-icon"><i class="fas fa-expand"></i></span>
+            <h4>Dance Fitness</h4>
+            <p>High-energy sessions</p>
+          </div>
+        </div>
+        <div class="gallery-item wide" data-category="gym">
+          <img src="images/gallery-cardio-zone.jpg" alt="Cardio Zone" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-icon"><i class="fas fa-expand"></i></span>
+            <h4>Cardio Zone</h4>
+            <p>State-of-the-art machines</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="amenity">
+          <img src="images/gallery-lockers.jpg" alt="Locker Room" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-icon"><i class="fas fa-expand"></i></span>
+            <h4>Private Lockers</h4>
+            <p>Secure & luxurious</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="classes">
+          <img src="images/gallery-aerobics.jpg" alt="Aerobics Class" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-icon"><i class="fas fa-expand"></i></span>
+            <h4>Aerobics Class</h4>
+            <p>Fun group workouts</p>
+          </div>
+        </div>
+        <div class="gallery-item tall" data-category="amenity">
+          <img src="images/gallery-spa.jpg" alt="Spa" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-icon"><i class="fas fa-expand"></i></span>
+            <h4>Spa & Recovery</h4>
+            <p>Post-workout relaxation</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-category="gym">
+          <img src="images/gallery-free-weights.jpg" alt="Free Weights" loading="lazy">
+          <div class="gallery-overlay">
+            <span class="gallery-icon"><i class="fas fa-expand"></i></span>
+            <h4>Free Weights Area</h4>
+            <p>Premium dumbbells & bars</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightboxClose"><i class="fas fa-times"></i></button>
+      <button class="lightbox-prev" id="lightboxPrev"><i class="fas fa-chevron-left"></i></button>
+      <button class="lightbox-next" id="lightboxNext"><i class="fas fa-chevron-right"></i></button>
+      <div class="lightbox-content">
+        <img id="lightboxImg" src="" alt="Gallery Image">
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CTA SECTION ==================== -->
+  <section class="cta-section">
+    <div class="cta-bg">
+      <img src="images/cta-bg.jpg" alt="CTA Background" loading="lazy">
+    </div>
+    <div class="cta-overlay"></div>
+    <div class="container">
+      <div class="cta-content">
+        <span class="cta-badge">Limited Time Offer</span>
+        <h2>Your Transformation<br>Starts <span class="gradient-text-light">Today</span></h2>
+        <p>Join now and get your first month absolutely FREE along with a complimentary personal training session and body composition analysis.</p>
+        <div class="cta-btns">
+          <a href="#contact" class="btn btn-white">
+            <span>Claim Free Trial</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="tel:+919876543210" class="btn btn-white-outline">
+            <i class="fas fa-phone"></i>
+            <span>Call Now</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PRICING SECTION ==================== -->
+  <section class="pricing section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Membership</span>
+        <h2 class="section-title">Choose Your <span class="gradient-text">Plan</span></h2>
+        <p class="section-desc">Flexible membership plans designed to fit your lifestyle and budget.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <span class="pricing-badge">Starter</span>
+            <div class="pricing-price">
+              <span class="currency">₹</span>
+              <span class="amount">1,999</span>
+              <span class="period">/month</span>
+            </div>
+          </div>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check"></i> Gym Floor Access</li>
+            <li><i class="fas fa-check"></i> Locker & Shower</li>
+            <li><i class="fas fa-check"></i> 2 Group Classes/Week</li>
+            <li><i class="fas fa-check"></i> Basic Fitness Assessment</li>
+            <li class="disabled"><i class="fas fa-times"></i> Personal Training</li>
+            <li class="disabled"><i class="fas fa-times"></i> Nutrition Plan</li>
+            <li class="disabled"><i class="fas fa-times"></i> Spa Access</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline-card">Get Started</a>
+        </div>
+        <div class="pricing-card featured">
+          <div class="pricing-ribbon">Most Popular</div>
+          <div class="pricing-header">
+            <span class="pricing-badge">Premium</span>
+            <div class="pricing-price">
+              <span class="currency">₹</span>
+              <span class="amount">3,499</span>
+              <span class="period">/month</span>
+            </div>
+          </div>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check"></i> Full Gym Access</li>
+            <li><i class="fas fa-check"></i> Locker & Shower</li>
+            <li><i class="fas fa-check"></i> Unlimited Group Classes</li>
+            <li><i class="fas fa-check"></i> Monthly Fitness Assessment</li>
+            <li><i class="fas fa-check"></i> 4 PT Sessions/Month</li>
+            <li><i class="fas fa-check"></i> Basic Nutrition Plan</li>
+            <li class="disabled"><i class="fas fa-times"></i> Spa Access</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <span class="pricing-badge">Elite</span>
+            <div class="pricing-price">
+              <span class="currency">₹</span>
+              <span class="amount">5,999</span>
+              <span class="period">/month</span>
+            </div>
+          </div>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check"></i> Full Gym Access</li>
+            <li><i class="fas fa-check"></i> Premium Locker Suite</li>
+            <li><i class="fas fa-check"></i> Unlimited Group Classes</li>
+            <li><i class="fas fa-check"></i> Weekly Fitness Assessment</li>
+            <li><i class="fas fa-check"></i> Unlimited PT Sessions</li>
+            <li><i class="fas fa-check"></i> Custom Nutrition Plan</li>
+            <li><i class="fas fa-check"></i> Full Spa & Recovery</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline-card">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT SECTION ==================== -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Start Your <span class="gradient-text">Journey</span></h2>
+        <p class="section-desc">Ready to transform? Reach out to us and take the first step towards a healthier, happier you.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4>Visit Us</h4>
+              <p>123 Wellness Avenue, Fitness Hub<br>Mumbai, Maharashtra 400001</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-phone-alt"></i></div>
+            <div>
+              <h4>Call Us</h4>
+              <p>+91 98765 43210<br>+91 22 2345 6789</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email Us</h4>
+              <p>hello@florafitness.in<br>info@florafitness.in</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <h4>Working Hours</h4>
+              <p>Mon – Fri: 5:30 AM – 10:00 PM<br>Sat – Sun: 6:00 AM – 8:00 PM</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="contact-form-wrapper">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Your first name" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Your last name" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="service">Interested In</label>
+              <select id="service" name="service">
+                <option value="">Select a service</option>
+                <option value="strength">Strength Training</option>
+                <option value="yoga">Yoga & Meditation</option>
+                <option value="dance">Cardio Dance</option>
+                <option value="hiit">HIIT Training</option>
+                <option value="nutrition">Nutrition Planning</option>
+                <option value="personal">Personal Training</option>
+                <option value="trial">Free Trial</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us about your fitness goals..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== MAP SECTION ==================== -->
+  <div class="map-section">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.104842809889!2d72.87966771535978!3d19.07580668710589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c63658c428d3%3A0x5c72d8dd97c6e6!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+      width="100%" 
+      height="450" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <a href="#home" class="footer-logo">
+              <span class="logo-icon"><i class="fas fa-spa"></i></span>
+              <span class="logo-text">FLORA<span class="logo-accent">FITNESS</span></span>
+            </a>
+            <p>Empowering women through fitness since 2018. Your journey to a healthier, stronger you starts here.</p>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Our Services</h4>
+            <ul class="footer-links">
+              <li><a href="#services">Strength Training</a></li>
+              <li><a href="#services">Yoga & Meditation</a></li>
+              <li><a href="#services">Cardio Dance</a></li>
+              <li><a href="#services">HIIT Training</a></li>
+              <li><a href="#services">Nutrition Planning</a></li>
+              <li><a href="#services">Personal Training</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Newsletter</h4>
+            <p>Subscribe for fitness tips, exclusive offers, and community updates.</p>
+            <form class="newsletter-form" id="newsletterForm">
+              <input type="email" placeholder="Your email address" required>
+              <button type="submit" aria-label="Subscribe"><i class="fas fa-arrow-right"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Flora Fitness. All rights reserved. Made with <i class="fas fa-heart"></i> for women who inspire.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
